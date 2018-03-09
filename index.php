@@ -7,7 +7,7 @@
     <title>mohnjatthews | johnmatthews</title>
     <style>
         a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
-    
+
         @font-face {
             font-family: 'dos';
             src: url('/dos.ttf');
@@ -81,7 +81,7 @@
 
         nav .active {
             background-color: #111;
-            color: white;   
+            color: white;
         }
 
         h1 {
@@ -138,29 +138,30 @@
 
     <main>
         <header>
-            <h1>mohnjatthews.com</h1>
+            <h1>baorie.github.io</h1>
         </header>
 
         <about id="about">
-            <h2>>>> Hi there!</h2>
-            <p class="lead">I'm John Matthews. I write code and technical docs. Contact information is at the bottom, recent projects are in the middle, and the introductory paragraph is right here. Feel free to get in touch if you have a project idea, need a hand with your code, or just fancy a pint.</p>
+            <h2>>>> Greetings!</h2>
+            <p class="lead">I'm Rielle Quiambao. I write code and engineer! Contact information is at the bottom, recent projects are in the middle, and the introductory paragraph is right here.</p>
         </about>
 
         <projects id="projects">
             <h2>>>> Projects</h2>
+            /*
             <p><a href="//striphealthcafe.com/">striphealthcafe.com</a><br>Website, hosting, and graphic design for a healthy-food cafe based in Manchester UK.</p><br>
             <p><a href="//theninjareport.co.uk">theninjareport.co.uk</a><br>Website and hosting for a metal band in the UK.</p><br>
             <p><a href="//mohnjatthews.github.io/friendsum/">friendsum.site</a><br>Custom lorem ipsum generator created during a hackday.</p><br>
             <p><a href="//davidmollard.co.uk">davidmollard.co.uk</a><br>Website for a personal fitness instructor contact website.</p><br>
             <p><a href="//mohnjatthews.com/projects/lotr-timer">lotr-timer.site</a><br>The Lord of the Rings related hackday project.</p><br>
-            <p><a href="//www.tithebarn.net/">tithebarn.net</a><br>Website, hosting, and company branding for a bed and breakfast in Cumbria, UK.</p><br>
+            <p><a href="//www.tithebarn.net/">tithebarn.net</a><br>Website, hosting, and company branding for a bed and breakfast in Cumbria, UK.</p><br>*/
         </projects>
 
         <contact id="contact">
             <h2>>>> Contact</h2>
             <p id="email-address-reveal"><a onclick="toggleEmail()">Click for Email</a></p>
-            <p><a href="//github.com/mohnjatthews">GitHub</a></p>
-            <p><a href="//www.linkedin.com/in/mohnjatthews">LinkedIn</a></p>
+            <p><a href="//github.com/baorie">GitHub</a></p>
+            <p><a href="//www.linkedin.com/in/riellemq">LinkedIn</a></p>
         </contact>
     </main>
 
@@ -170,7 +171,7 @@
 </body>
 <script>
     function toggleEmail() {
-    var o = "john@mohnjatthews.com";
+    var o = "rielle.quiambao@gmail.com";
     document.getElementById("email-address-reveal").innerHTML != '<a href="mailto:' + o + '">' + o + "</a>" ? document.getElementById("email-address-reveal").innerHTML = '<a href="mailto:' + o + '">' + o + "</a>" : document.getElementById("email-address-reveal").innerHTML = "&nbsp;"
     }
 </script>
